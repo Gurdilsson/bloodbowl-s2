@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/bloodbowl-s2/static/css/main.b4527bd2.css",
+    "main.js": "/bloodbowl-s2/static/js/main.b61c5698.js",
+    "static/js/787.5a95467c.chunk.js": "/bloodbowl-s2/static/js/787.5a95467c.chunk.js",
+    "static/media/logo-site.png": "/bloodbowl-s2/static/media/logo-site.af6efe1d955da8c01b67.png",
+    "static/media/CheerleaderOnBall.jpg": "/bloodbowl-s2/static/media/CheerleaderOnBall.25d41422fd86445ea425.jpg",
+    "static/media/Blitzers.png": "/bloodbowl-s2/static/media/Blitzers.3f8c0d2d5f96cfaea907.png",
+    "static/media/logo-MAMA.png": "/bloodbowl-s2/static/media/logo-MAMA.4703d60b3c28b15df474.png",
+    "static/media/logo-LKM.png": "/bloodbowl-s2/static/media/logo-LKM.4c3faf0714fd234d0266.png",
+    "static/media/logo-LGA.png": "/bloodbowl-s2/static/media/logo-LGA.c05e53080989097b53b7.png",
+    "static/media/logo-LBG.png": "/bloodbowl-s2/static/media/logo-LBG.668077f43b7beaa50786.png",
+    "static/media/logo-SUP.png": "/bloodbowl-s2/static/media/logo-SUP.52d5ebc93180fc9a4ac4.png",
+    "static/media/logo-LMS.png": "/bloodbowl-s2/static/media/logo-LMS.ecd529e1ea0581bb4812.png",
+    "static/media/Ork_In_Progress.png": "/bloodbowl-s2/static/media/Ork_In_Progress.c6154b618a31448d456b.png",
+    "static/media/NuffleDice-axWja.ttf": "/bloodbowl-s2/static/media/NuffleDice-axWja.e648bebd5754639f519a.ttf",
+    "static/media/Nuffle-OVwjO.ttf": "/bloodbowl-s2/static/media/Nuffle-OVwjO.fc463710f227b7e3f614.ttf",
+    "index.html": "/bloodbowl-s2/index.html",
+    "main.b4527bd2.css.map": "/bloodbowl-s2/static/css/main.b4527bd2.css.map",
+    "main.b61c5698.js.map": "/bloodbowl-s2/static/js/main.b61c5698.js.map",
+    "787.5a95467c.chunk.js.map": "/bloodbowl-s2/static/js/787.5a95467c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4527bd2.css",
+    "static/js/main.b61c5698.js"
+  ]
+}
