@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bloodbowl-s2/static/css/main.b4527bd2.css",
-    "main.js": "/bloodbowl-s2/static/js/main.b61c5698.js",
+    "main.js": "/bloodbowl-s2/static/js/main.b969ac08.js",
     "static/js/787.5a95467c.chunk.js": "/bloodbowl-s2/static/js/787.5a95467c.chunk.js",
     "static/media/logo-site.png": "/bloodbowl-s2/static/media/logo-site.af6efe1d955da8c01b67.png",
     "static/media/CheerleaderOnBall.jpg": "/bloodbowl-s2/static/media/CheerleaderOnBall.25d41422fd86445ea425.jpg",
@@ -17,11 +17,11 @@
     "static/media/Nuffle-OVwjO.ttf": "/bloodbowl-s2/static/media/Nuffle-OVwjO.fc463710f227b7e3f614.ttf",
     "index.html": "/bloodbowl-s2/index.html",
     "main.b4527bd2.css.map": "/bloodbowl-s2/static/css/main.b4527bd2.css.map",
-    "main.b61c5698.js.map": "/bloodbowl-s2/static/js/main.b61c5698.js.map",
+    "main.b969ac08.js.map": "/bloodbowl-s2/static/js/main.b969ac08.js.map",
     "787.5a95467c.chunk.js.map": "/bloodbowl-s2/static/js/787.5a95467c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b4527bd2.css",
-    "static/js/main.b61c5698.js"
+    "static/js/main.b969ac08.js"
   ]
 }
