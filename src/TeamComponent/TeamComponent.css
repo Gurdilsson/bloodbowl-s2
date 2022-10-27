@@ -1,0 +1,83 @@
+.team-name {
+    font-size: 35px;
+    font-family: "Gutcruncher";
+}
+
+.headerLine {
+    border: solid;
+    background-color: antiquewhite;
+    display: flex;
+    margin: 0px 5px 0px 5px;
+    font-weight: bold;
+    align-content: center;
+    padding: 3px;
+}
+
+.player-list {
+    margin-bottom: 50px;
+}
+
+.playerCards {
+    display: grid;
+    grid-template-columns: [col1] auto [col2] auto [col3] auto [end];
+    column-gap: 10px;
+    row-gap: 15px;
+    padding: 10px 5px 10px 5px;
+    height: 470px !important;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.playerCards::-webkit-scrollbar {
+    display: none;
+}
+
+.team-infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid;
+    margin: 0px 10px 10px 10px;
+    font-family: "Gutcruncher";
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.orcs {
+    background: linear-gradient(rgb(230, 169, 2), rgb(250, 183, 0));
+    background-color: rgb(250, 183, 0) !important;
+    color: black !important;
+}
+.blackOrcs {
+    background-color: rgb(150, 8, 8) !important;
+    background: linear-gradient(rgb(150, 8, 8), rgb(250, 12, 12));
+    color: white;
+    border-color: black;
+}
+.halflings {
+    background-color: rgb(255, 255, 255) !important;
+    background: linear-gradient(rgb(255, 255, 255), rgb(206, 206, 206));
+    color: black !important;
+}
+.necromantics {
+    background: linear-gradient(rgb(33, 100, 50), rgb(60, 172, 88));
+    color: white;
+    border-color: black;
+}
+.lizarmens {
+    background: linear-gradient(rgb(131, 11, 95), rgb(179, 44, 138));
+    color: white;
+    border-color: black;
+}
+.dwarfs {
+    background: linear-gradient(rgb(21, 55, 151), rgb(64, 82, 245));
+    color: white;
+    border-color: black;
+}
+
+.team-logo {
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,14 @@
+.advertisement {
+    font-size: 40px;
+    text-align: center;
+}
+
+.cheer {
+    height: 500px;
+}
+
+.cheerContainer {
+    display: flex;
+    justify-content: center;
+    
+}

@@ -1,0 +1,105 @@
+{
+    "name": "Obsidian smashers",
+    "acronyme": "OS",
+    "coachName": "Gurdil",
+    "rerolls": 2,
+    "rerollCost": 60000,
+    "fans": 0,
+    "apothecary": false,
+    "cheerleaders": 3,
+    "assistantCoach": 2,
+    "golds": 10000,
+    "championchipPoints": 4,
+    "players": [
+        {
+            "name": "Billy",
+            "role": "Blocker",
+            "cost": 50000,
+            "level": 2,
+            "PSP": 12,
+            "M": 6,
+            "F": 3,
+            "AG": 3,
+            "CP": 4,
+            "AR": 8,
+            "RPM": false,
+            "BP": 0,
+            "REU": 0,
+            "ELI": 0,
+            "DET": 0,
+            "INT": 0,
+            "TD": 0,
+            "JDM": 0,
+            "abilities": [
+                "Dodge"
+            ]
+        },
+        {
+            "name": "Ranna",
+            "role": "Blocker",
+            "cost": 50000,
+            "level": 2,
+            "PSP": 12,
+            "M": 6,
+            "F": 3,
+            "AG": 3,
+            "CP": 4,
+            "AR": 8,
+            "RPM": false,
+            "BP": 0,
+            "REU": 0,
+            "ELI": 0,
+            "DET": 0,
+            "INT": 0,
+            "TD": 0,
+            "JDM": 0,
+            "abilities": [
+                "Dodge"
+            ]
+        },{
+            "name": "Ernest",
+            "role": "Blocker",
+            "cost": 50000,
+            "level": 2,
+            "PSP": 12,
+            "M": 6,
+            "F": 3,
+            "AG": 3,
+            "CP": 4,
+            "AR": 8,
+            "RPM": false,
+            "BP": 0,
+            "REU": 0,
+            "ELI": 0,
+            "DET": 0,
+            "INT": 0,
+            "TD": 0,
+            "JDM": 0,
+            "abilities": [
+                "Dodge"
+            ]
+        },{
+            "name": "Tann",
+            "role": "Blocker",
+            "cost": 50000,
+            "level": 2,
+            "PSP": 12,
+            "M": 6,
+            "F": 3,
+            "AG": 3,
+            "CP": 4,
+            "AR": 8,
+            "RPM": false,
+            "BP": 0,
+            "REU": 0,
+            "ELI": 0,
+            "DET": 0,
+            "INT": 0,
+            "TD": 0,
+            "JDM": 0,
+            "abilities": [
+                "Dodge"
+            ]
+        }
+    ]
+}

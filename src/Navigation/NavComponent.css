@@ -1,0 +1,44 @@
+.image {
+    transform: scaleX(-1);
+    width: 223px;
+}
+
+.menu {
+    flex: 1;
+    font-family: "Gutcruncher";
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.nav {
+    width: 20%;
+    padding: unset;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item{
+    width: 100%;
+}
+
+.menu-title:hover {
+    cursor:pointer;
+    color: orangered
+}
+
+.menu-selected{
+    color: orangered
+}
+
+.menu-item:hover{
+    cursor: pointer;
+    color: orangered
+}
+
+.logo-site {
+    width : 200px;
+}
+
+.logo-site:hover {
+    cursor:pointer;
+}

@@ -1,0 +1,21 @@
+.main-page {
+    width: 60%;
+    height: 100vh;
+    background-color: #5AB6FF;
+    padding: 0px 15px 0px 15px;
+}
+
+.content {
+    height: 90%;
+}
+.content::-webkit-scrollbar {
+    display: none;
+  }
+
+.title {
+    font-family: "Gutcruncher";
+    height: 10%;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
