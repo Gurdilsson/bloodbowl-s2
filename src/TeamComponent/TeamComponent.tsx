@@ -20,13 +20,13 @@ function TeamComponent({ actualTeam, actualLogo }: TeamComponentInterface) {
 
     const teamValue = (
         actualTeam.rerollCost * actualTeam.rerolls
-        + 10000 * (actualTeam.cheerleaders + actualTeam.assistantCoach + actualTeam.fans)
+        + 10000 * (actualTeam.cheerleaders + actualTeam.assistantCoach)
         + (actualTeam.apothecary ? 50000 : 0))
         + playersValue
 
     const actualTeamValue = (
         actualTeam.rerollCost * actualTeam.rerolls
-        + 10000 * (actualTeam.cheerleaders + actualTeam.assistantCoach + actualTeam.fans)
+        + 10000 * (actualTeam.cheerleaders + actualTeam.assistantCoach)
         + (actualTeam.apothecary ? 50000 : 0))
         + validPlayersValue
 
