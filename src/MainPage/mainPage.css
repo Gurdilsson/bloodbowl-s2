@@ -3,6 +3,7 @@
     height: 100vh;
     background-color: #5AB6FF;
     padding: 0px 15px 0px 15px;
+    overflow: hidden;
 }
 
 .content {

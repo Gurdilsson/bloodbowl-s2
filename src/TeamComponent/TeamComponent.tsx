@@ -49,30 +49,6 @@ function TeamComponent({ actualTeam, actualLogo }: TeamComponentInterface) {
 
             </div>
 
-            {/* <div className="player-list">
-                <div className="headerLine">
-                    <div className="playerNum">N°</div>
-                    <div className="playerName">Nom</div>
-                    <div className="playerRole">Poste</div>
-                    <div className="playerMovement">M</div>
-                    <div className="playerStrenght">F</div>
-                    <div className="playerAgility">AG</div>
-                    <div className="playerPass">CP</div>
-                    <div className="playerArmor">AR</div>
-                    <div className="playerXp">RPM</div>
-                    <div className="playerXp">BP</div>
-                    <div className="playerXp">REU</div>
-                    <div className="playerXp">ELI</div>
-                    <div className="playerXp">DET</div>
-                    <div className="playerXp">INT</div>
-                    <div className="playerXp">TD</div>
-                    <div className="playerXp">JDM</div>
-                    <div className="playerLevel">Lvl</div>
-                    <div className="playerPoints">SPP</div>
-                    <div className="playerCost">Coût</div>
-                </div>
-                {playerList}
-            </div> */}
             <div className="playerCards">
                 {playerList}
             </div>

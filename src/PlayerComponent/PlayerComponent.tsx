@@ -1,4 +1,5 @@
 import React from "react";
+import { formatCurrency } from "../Utils/Utils";
 import './PlayerComponent.css'
 import { Player } from "./PlayerInterface";
 
@@ -17,10 +18,11 @@ function PlayerComponent({ player, race }: PlayerComponentInterface) {
         <div className="playerCard">
             <div className="playerCardInner">
                 <div className="playerCardFront">
-                    <div>
+                    <div className="playerTitle">
                         {player.num} - {player.name} - {player.role}
                     </div>
                     <div className="playerLevel">
+                        <div>coût: {formatCurrency(player.cost)}</div>
                         <div>level : {player.level}</div>
                         <div>psp : {player.PSP}</div>
                     </div>
