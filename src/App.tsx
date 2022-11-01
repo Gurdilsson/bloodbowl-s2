@@ -3,6 +3,8 @@ import './App.css';
 import MainPage from './MainPage/MainPage'
 import NavComponent from './Navigation/NavComponent'
 import SideComponent from './SideComponent/SideComponent';
+import { BrowserView, MobileView } from 'react-device-detect';
+import { isMobile } from 'react-device-detect';
 
 function App() {
 
@@ -11,12 +13,23 @@ function App() {
     setState(state)
   }
 
+  console.log(isMobile)
+
   return (
-    <div className="App">
-      <NavComponent changeState={changeState} state = {state}></NavComponent>
-      <MainPage state={state}></MainPage>
-      <SideComponent></SideComponent>
-    </div>
+    <>
+      {
+        isMobile ? 
+        <MainPage state={1}></MainPage>
+        :
+        <div className="App">
+          <NavComponent changeState={changeState} state={state}></NavComponent>
+          <MainPage state={state}></MainPage>
+          <SideComponent></SideComponent>
+        </div>
+      }
+    </>
+
+
   );
 }
 

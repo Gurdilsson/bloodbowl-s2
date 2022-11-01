@@ -216,7 +216,7 @@
             "role": "Werewolf",
             "cost": 125000,
             "level": 1,
-            "PSP": 0,
+            "PSP": 3,
             "M": 8,
             "F": 3,
             "AG": 3,

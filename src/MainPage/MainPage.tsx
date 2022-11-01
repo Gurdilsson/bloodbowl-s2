@@ -5,6 +5,7 @@ import PlanningComponent from "../PlanningComponent/PlanningComponent";
 import RankingComponent from "../RankingComponent/RankingComponent";
 import TeamsComponent from "../TeamComponent/TeamsComponent";
 import './mainPage.css';
+import { isMobile, BrowserView, MobileView } from 'react-device-detect';
 
 interface MainPageInterface {
     state: number
@@ -30,13 +31,24 @@ function MainPage({ state }: MainPageInterface) {
     }
 
     return (
-        <div className="main-page">
-            <div className="title">Ligue de Blood Bowl Thoréfoléenne</div>
+        <>
+            {
+                isMobile ?
+                    <div className="main-page-mobile">
+                        {renderSwitch(state)}
+                    </div>
+                    :
+                    <div className="main-page">
+                        <div className="title">Ligue de Blood Bowl Thoréfoléenne</div>
 
-            <div className="content">
-                {renderSwitch(state)}
-            </div>
-        </div>
+                        <div className="content">
+                            {renderSwitch(state)}
+                        </div>
+                    </div>
+            }
+
+        </>
+
     )
 }
 

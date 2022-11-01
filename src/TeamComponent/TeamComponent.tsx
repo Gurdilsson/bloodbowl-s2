@@ -4,6 +4,7 @@ import './TeamComponent.css'
 import '../PlayerComponent/PlayerComponent.css'
 import PlayerComponent from "../PlayerComponent/PlayerComponent";
 import { formatCurrency } from "../Utils/Utils";
+import { isMobile } from 'react-device-detect';
 
 interface TeamComponentInterface {
     actualTeam: Team
@@ -32,8 +33,8 @@ function TeamComponent({ actualTeam, actualLogo }: TeamComponentInterface) {
 
     return (
         <>
-            <div className="team-name">{actualTeam.name}</div>
-            <div className={"team-infos " + actualTeam.race}>
+            <div className={isMobile ? "team-name-mobile" : "team-name"}>{actualTeam.name}</div>
+            <div className={(isMobile ? "team-infos-mobile " : "team-infos ") + actualTeam.race}>
                 <div>
                     <div>Coach : {actualTeam.coachName}</div>
                     <div>Points de ligue : {actualTeam.championchipPoints}</div>
@@ -45,13 +46,20 @@ function TeamComponent({ actualTeam, actualLogo }: TeamComponentInterface) {
                     <div>Trésorerie : {formatCurrency(actualTeam.golds)}</div>
                     <div>Relances d'équipe : {actualTeam.rerolls}</div>
                 </div>
-                <img src={actualLogo} alt="logo" className="team-logo" />
+                <img src={actualLogo} alt="logo" className={isMobile ? "team-logo-mobile" : "team-logo"} />
 
             </div>
 
-            <div className="playerCards">
-                {playerList}
-            </div>
+            {
+                isMobile ?
+                    <div className="playerCards-mobile">
+                        {playerList}
+                    </div>
+                    :
+                    <div className="playerCards">
+                        {playerList}
+                    </div>
+            }
         </>
     )
 }

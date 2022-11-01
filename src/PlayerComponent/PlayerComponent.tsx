@@ -2,6 +2,8 @@ import React from "react";
 import { formatCurrency } from "../Utils/Utils";
 import './PlayerComponent.css'
 import { Player } from "./PlayerInterface";
+import { isMobile } from 'react-device-detect';
+
 
 interface PlayerComponentInterface {
     player: Player
@@ -15,13 +17,13 @@ function PlayerComponent({ player, race }: PlayerComponentInterface) {
     }
 
     return (
-        <div className="playerCard">
+        <div className={isMobile ? "playerCard-mobile" : "playerCard"}>
             <div className="playerCardInner">
-                <div className="playerCardFront">
+                <div className={"playerCardFront " + (player.RPM ? "rpm" : "")}>
                     <div className="playerTitle">
                         {player.num} - {player.name} - {player.role}
                     </div>
-                    <div className="playerLevel">
+                    <div className={"playerLevel "  + (player.RPM ? "rpm" : "")}>
                         <div>coût: {formatCurrency(player.cost)}</div>
                         <div>level : {player.level}</div>
                         <div>psp : {player.PSP}</div>
@@ -56,6 +58,7 @@ function PlayerComponent({ player, race }: PlayerComponentInterface) {
                             <div>INT : {player.INT}</div>
                             <div>TD : {player.TD}</div>
                             <div>JDM : {player.JDM}</div>
+                            <div className="rpm">{player.RPM ? "Rate le prochain match": ""}</div>
                         </div>
                         <div className="playerStatsHistory">
                             <div></div>

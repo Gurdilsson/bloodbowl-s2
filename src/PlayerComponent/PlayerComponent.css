@@ -4,6 +4,15 @@
     perspective: 1000px;
     font-family: "Gutcruncher";
 }
+
+.playerCard-mobile {
+    height: 200px;
+    background-color: transparent;
+    perspective: 1000px;
+    font-family: "Gutcruncher";
+    margin-bottom: 15px
+}
+
 .playerCardInner {
     position: relative;
     border: solid black;
@@ -15,7 +24,15 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
  }
 
+.rpm {
+    background-color: #c92e2e !important;
+}
+
 .playerCard:hover .playerCardInner {
+    transform: rotateY(180deg);
+}
+
+.playerCard-mobile:hover .playerCardInner {
     transform: rotateY(180deg);
 }
 
@@ -73,6 +90,10 @@
     color: orangered;
     display: flex;
     justify-content: space-around;
+}
+
+.playerLevel.rpm {
+    color: white !important
 }
 
 .playerStatsHeader {

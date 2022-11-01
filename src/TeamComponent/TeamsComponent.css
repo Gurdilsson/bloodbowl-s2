@@ -1,0 +1,36 @@
+.teamComponent {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 95%;
+    width: 100%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.teamComponent::-webkit-scrollbar {
+    display: none;
+
+}
+
+/* .playerCards {
+    display: grid;
+    height: 58% !important;
+    overflow: scroll;
+    }
+    .team-infos {
+    display: flex;
+    }
+    Feuille de style intégrée #7
+    .teamComponent {
+    height: fit-content;
+    height: 95%;
+    width: 100%;
+    }
+    Feuille de style intégrée #8
+    .main-page-mobile {
+    overflow: hidden;
+    }
+    Feuille de style intégrée #6
+    .team-nav {
+    height: 2.5%;
+    } */

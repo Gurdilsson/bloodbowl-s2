@@ -14,6 +14,8 @@ import MAMA from '../Images/logo-MAMA.png'
 import LGA from '../Images/logo-LGA.png'
 import SUP from '../Images/logo-SUP.png'
 import LKM from '../Images/logo-LKM.png'
+import './TeamsComponent.css'
+import { isMobile } from 'react-device-detect';
 
 function TeamsComponent() {
     const [actualTeam, setActualTeam] = useState(0)
@@ -26,8 +28,18 @@ function TeamsComponent() {
 
     return (
         <>
-            <TeamNavComponent teams={teamList} changeTeam={changeTeam} actualTeam={teamList[actualTeam]}></TeamNavComponent>
-            <TeamComponent actualTeam={teamList[actualTeam]} actualLogo={teamLogos[actualTeam]}></TeamComponent>
+            {
+                isMobile ?
+                    <><TeamNavComponent teams={teamList} changeTeam={changeTeam} actualTeam={teamList[actualTeam]}></TeamNavComponent>
+                        <div className="teamComponent">
+                            <TeamComponent actualTeam={teamList[actualTeam]} actualLogo={teamLogos[actualTeam]}></TeamComponent>
+                        </div></>
+                    : <>
+                        <TeamNavComponent teams={teamList} changeTeam={changeTeam} actualTeam={teamList[actualTeam]}></TeamNavComponent>
+                        <TeamComponent actualTeam={teamList[actualTeam]} actualLogo={teamLogos[actualTeam]}></TeamComponent>
+                    </>
+            }
+
         </>
     )
 }
