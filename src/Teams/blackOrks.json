@@ -4,13 +4,13 @@
     "race": "blackOrcs",
     "coachName": "Antoine",
     "rerolls": 3,
-    "rerollCost": 60000,
-    "fans": 6,
+    "rerollCost": 50000,
+    "fans": 5,
     "apothecary": false,
     "cheerleaders": 0,
     "assistantCoach": 0,
     "golds": 70000,
-    "championchipPoints": 0,
+    "championchipPoints": 3,
     "players": [
         {
             "num": 1,
@@ -18,7 +18,7 @@
             "role": "Black Orc",
             "cost": 90000,
             "level": 1,
-            "PSP": 0,
+            "PSP": 2,
             "M": 4,
             "F": 4,
             "AG": 4,
@@ -27,7 +27,7 @@
             "RPM": false,
             "BP": 0,
             "REU": 0,
-            "ELI": 0,
+            "ELI": 1,
             "DET": 0,
             "INT": 0,
             "TD": 0,
@@ -40,9 +40,9 @@
             "num": 2,
             "name": "Buveur-Avide",
             "role": "Black Orc",
-            "cost": 90000,
-            "level": 1,
-            "PSP": 4,
+            "cost": 110000,
+            "level": 2,
+            "PSP": 2,
             "M": 4,
             "F": 4,
             "AG": 4,
@@ -55,9 +55,9 @@
             "DET": 0,
             "INT": 0,
             "TD": 0,
-            "JDM": 0,
+            "JDM": 1,
             "abilities": [
-                "Bagarreur", "Projection"
+                "Bagarreur", "Projection", "Chataîgne (+1)"
             ]
         },
         {
@@ -112,9 +112,9 @@
             "num": 5,
             "name": "Poivrot-De-Gazpille",
             "role": "Black Orc",
-            "cost": 90000,
-            "level": 1,
-            "PSP": 2,
+            "cost": 110000,
+            "level": 2,
+            "PSP": 0,
             "M": 4,
             "F": 4,
             "AG": 4,
@@ -123,13 +123,13 @@
             "RPM": false,
             "BP": 0,
             "REU": 0,
-            "ELI": 1,
+            "ELI": 3,
             "DET": 0,
             "INT": 0,
             "TD": 0,
             "JDM": 0,
             "abilities": [
-                "Bagarreur", "Projection"
+                "Bagarreur", "Projection", "Chataîgne (+1)"
             ]
         },
         {
@@ -160,9 +160,9 @@
             "num": 7,
             "name": "Pochard-Provocateur",
             "role": "Goblin Bruiser",
-            "cost": 45000,
-            "level": 1,
-            "PSP": 3,
+            "cost": 55000,
+            "level": 2,
+            "PSP": 0,
             "M": 6,
             "F": 2,
             "AG": 3,
@@ -177,31 +177,7 @@
             "TD": 1,
             "JDM": 0,
             "abilities": [
-                "Esquive", "Poids Plume", "Minus", "Crâne Epais"
-            ]
-        },
-        {
-            "num": 8,
-            "name": "Soûlaud-Terrible",
-            "role": "Goblin Bruiser",
-            "cost": 45000,
-            "level": 1,
-            "PSP": 0,
-            "M": 6,
-            "F": 2,
-            "AG": 3,
-            "CP": 4,
-            "AR": 8,
-            "RPM": false,
-            "BP": 0,
-            "REU": 0,
-            "ELI": 0,
-            "DET": 0,
-            "INT": 0,
-            "TD": 0,
-            "JDM": 0,
-            "abilities": [
-                "Esquive", "Poids Plume", "Minus", "Crâne Epais"
+                "Esquive", "Poids Plume", "Minus", "Crâne Epais", "Tacle Plongeant"
             ]
         },
         {
@@ -216,7 +192,7 @@
             "AG": 3,
             "CP": 4,
             "AR": 8,
-            "RPM": true,
+            "RPM": false,
             "BP": 1,
             "REU": 0,
             "ELI": 0,
@@ -274,6 +250,36 @@
             "JDM": 0,
             "abilities": [
                 "Esquive", "Poids Plume", "Minus", "Crâne Epais"
+            ]
+        },
+        {
+            "num": 12,
+            "name": "Réservoir à Gazpille",
+            "role": "Untrained Troll",
+            "cost": 115000,
+            "level": 1,
+            "PSP": 0,
+            "M": 4,
+            "F": 5,
+            "AG": 5,
+            "CP": 5,
+            "AR": 10,
+            "RPM": false,
+            "BP": 0,
+            "REU": 0,
+            "ELI": 0,
+            "DET": 0,
+            "INT": 0,
+            "TD": 0,
+            "JDM": 0,
+            "abilities": [
+                "Toujours Affamé",
+                "Solitaire (3)",
+                "Gerbe de Vomi",
+                "Châtaigne (1)",
+                "Gros Débile",
+                "Régénération",
+                "Lancer de Coéquipier"
             ]
         }
     ]

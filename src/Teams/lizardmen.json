@@ -9,11 +9,11 @@
     "apothecary": false,
     "cheerleaders": 0,
     "assistantCoach": 0,
-    "golds": 65000,
-    "championchipPoints": 0,
+    "golds": 55000,
+    "championchipPoints": 3,
     "players": [
         {
-            "num": 1,
+            "num": 2,
             "name": "Djhul",
             "role": "Saurus",
             "cost": 85000,
@@ -35,7 +35,7 @@
             "abilities": []
         },
         {
-            "num": 2,
+            "num": 3,
             "name": "Hepoq",
             "role": "Saurus",
             "cost": 85000,
@@ -57,12 +57,12 @@
             "abilities": []
         },
         {
-            "num": 3,
+            "num": 4,
             "name": "Kylgorr",
             "role": "Saurus",
             "cost": 85000,
             "level": 1,
-            "PSP": 0,
+            "PSP": 2,
             "M": 6,
             "F": 4,
             "AG": 5,
@@ -71,29 +71,7 @@
             "RPM": false,
             "BP": 0,
             "REU": 0,
-            "ELI": 0,
-            "DET": 0,
-            "INT": 0,
-            "TD": 0,
-            "JDM": 0,
-            "abilities": []
-        },
-        {
-            "num": 4,
-            "name": "Chaka-Waka",
-            "role": "Saurus",
-            "cost": 85000,
-            "level": 1,
-            "PSP": 0,
-            "M": 6,
-            "F": 4,
-            "AG": 5,
-            "CP": 6,
-            "AR": 10,
-            "RPM": false,
-            "BP": 0,
-            "REU": 0,
-            "ELI": 0,
+            "ELI": 1,
             "DET": 0,
             "INT": 0,
             "TD": 0,
@@ -102,6 +80,28 @@
         },
         {
             "num": 5,
+            "name": "Chaka-Waka",
+            "role": "Saurus",
+            "cost": 85000,
+            "level": 1,
+            "PSP": 4,
+            "M": 6,
+            "F": 4,
+            "AG": 5,
+            "CP": 6,
+            "AR": 10,
+            "RPM": false,
+            "BP": 0,
+            "REU": 0,
+            "ELI": 0,
+            "DET": 0,
+            "INT": 0,
+            "TD": 0,
+            "JDM": 1,
+            "abilities": []
+        },
+        {
+            "num": 6,
             "name": "Uchayn",
             "role": "Skink",
             "cost": 60000,
@@ -112,7 +112,7 @@
             "AG": 3,
             "CP": 4,
             "AR": 8,
-            "RPM": true,
+            "RPM": false,
             "BP": 1,
             "REU": 0,
             "ELI": 0,
@@ -126,7 +126,7 @@
             ]
         },
         {
-            "num": 6,
+            "num": 7,
             "name": "Botl",
             "role": "Skink",
             "cost": 60000,
@@ -151,7 +151,7 @@
             ]
         },
         {
-            "num": 7,
+            "num": 8,
             "name": "Hyoan",
             "role": "Skink",
             "cost": 60000,
@@ -176,7 +176,7 @@
             ]
         },
         {
-            "num": 8,
+            "num": 9,
             "name": "Blhake",
             "role": "Skink",
             "cost": 60000,
@@ -184,10 +184,10 @@
             "PSP": 0,
             "M": 8,
             "F": 2,
-            "AG": 3,
+            "AG": 4,
             "CP": 4,
             "AR": 8,
-            "RPM": false,
+            "RPM": true,
             "BP": 0,
             "REU": 0,
             "ELI": 0,
@@ -201,7 +201,7 @@
             ]
         },
         {
-            "num": 9,
+            "num": 10,
             "name": "Hasafat",
             "role": "Skink",
             "cost": 60000,
@@ -226,12 +226,12 @@
             ]
         },
         {
-            "num": 10,
+            "num": 1,
             "name": "Powhel",
             "role": "Skink",
             "cost": 60000,
             "level": 1,
-            "PSP": 0,
+            "PSP": 3,
             "M": 8,
             "F": 2,
             "AG": 3,
@@ -243,7 +243,7 @@
             "ELI": 0,
             "DET": 0,
             "INT": 0,
-            "TD": 0,
+            "TD": 1,
             "JDM": 0,
             "abilities": [
                 "Esquive",
@@ -277,6 +277,28 @@
                 "Crâne Épais",
                 "Queue Préhensile"
             ]
+        },
+        {
+            "num": 12,
+            "name": "Ihmkrotep",
+            "role": "Saurus",
+            "cost": 85000,
+            "level": 1,
+            "PSP": 0,
+            "M": 6,
+            "F": 4,
+            "AG": 5,
+            "CP": 6,
+            "AR": 10,
+            "RPM": false,
+            "BP": 0,
+            "REU": 0,
+            "ELI": 0,
+            "DET": 0,
+            "INT": 0,
+            "TD": 0,
+            "JDM": 0,
+            "abilities": []
         }
     ]
 }
