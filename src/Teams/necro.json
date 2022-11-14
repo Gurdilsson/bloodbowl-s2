@@ -5,12 +5,12 @@
     "coachName": "Nans",
     "rerolls": 2,
     "rerollCost": 70000,
-    "fans": 2,
+    "fans": 3,
     "apothecary": false,
     "cheerleaders": 0,
     "assistantCoach": 0,
-    "golds": 45000,
-    "championchipPoints": 3,
+    "golds": 90000,
+    "championchipPoints": 6,
     "players": [
         {
             "num": 1,
@@ -48,7 +48,7 @@
             "AG": 4,
             "CP": 0,
             "AR": 9,
-            "RPM": false,
+            "RPM": true,
             "BP": 0,
             "REU": 0,
             "ELI": 0,
@@ -89,9 +89,9 @@
             "num": 4,
             "name": "Katy Pourri",
             "role": "Zombie",
-            "cost": 40000,
-            "level": 1,
-            "PSP": 0,
+            "cost": 50000,
+            "level": 2,
+            "PSP": 1,
             "M": 4,
             "F": 3,
             "AG": 4,
@@ -104,9 +104,10 @@
             "DET": 0,
             "INT": 0,
             "TD": 0,
-            "JDM": 0,
+            "JDM": 1,
             "abilities": [
-                "Régénération"
+                "Régénération",
+                "Arracher le ballon"
             ]
         },
         {
@@ -121,7 +122,7 @@
             "AG": 4,
             "CP": 0,
             "AR": 9,
-            "RPM": true,
+            "RPM": false,
             "BP": 1,
             "REU": 0,
             "ELI": 0,
@@ -139,7 +140,7 @@
             "role": "Ghoul Runner",
             "cost": 75000,
             "level": 1,
-            "PSP": 0,
+            "PSP": 3,
             "M": 7,
             "F": 3,
             "AG": 3,
@@ -151,7 +152,7 @@
             "ELI": 0,
             "DET": 0,
             "INT": 0,
-            "TD": 0,
+            "TD": 1,
             "JDM": 0,
             "abilities": [
                 "Esquive"
@@ -161,9 +162,9 @@
             "num": 7,
             "name": "Casper Chattam",
             "role": "Wraith",
-            "cost": 95000,
-            "level": 1,
-            "PSP": 2,
+            "cost": 105000,
+            "level": 2,
+            "PSP": 0,
             "M": 6,
             "F": 3,
             "AG": 3,
@@ -172,7 +173,7 @@
             "RPM": false,
             "BP": 0,
             "REU": 0,
-            "ELI": 1,
+            "ELI": 3,
             "DET": 0,
             "INT": 0,
             "TD": 0,
@@ -182,7 +183,8 @@
                 "Répulsion",
                 "Sans les Mains",
                 "Régénération",
-                "Glissade Contrôlée"
+                "Glissade Contrôlée",
+                "Garde"
             ]
         },
         {
@@ -197,7 +199,7 @@
             "AG": 3,
             "CP": 4,
             "AR": 9,
-            "RPM": true,
+            "RPM": false,
             "BP": 1,
             "REU": 0,
             "ELI": 1,
@@ -218,7 +220,7 @@
             "role": "Werewolf",
             "cost": 145000,
             "level": 2,
-            "PSP": 0,
+            "PSP": 5,
             "M": 8,
             "F": 3,
             "AG": 3,
@@ -227,10 +229,10 @@
             "RPM": false,
             "BP": 0,
             "REU": 0,
-            "ELI": 0,
+            "ELI": 1,
             "DET": 0,
             "INT": 0,
-            "TD": 2,
+            "TD": 3,
             "JDM": 0,
             "abilities": [
                 "Griffes",
@@ -297,10 +299,38 @@
             "role": "Wraith",
             "cost": 95000,
             "level": 1,
-            "PSP": 0,
+            "PSP": 2,
             "M": 6,
             "F": 3,
             "AG": 3,
+            "CP": 0,
+            "AR": 9,
+            "RPM": false,
+            "BP": 0,
+            "REU": 0,
+            "ELI": 1,
+            "DET": 0,
+            "INT": 0,
+            "TD": 0,
+            "JDM": 0,
+            "abilities": [
+                "Blocage",
+                "Répulsion",
+                "Sans les Mains",
+                "Régénération",
+                "Glissade Contrôlée"
+            ]
+        },
+        {
+            "num": 13,
+            "name": "Zombie",
+            "role": "Zombie",
+            "cost": 40000,
+            "level": 1,
+            "PSP": 0,
+            "M": 4,
+            "F": 3,
+            "AG": 4,
             "CP": 0,
             "AR": 9,
             "RPM": false,
@@ -312,11 +342,7 @@
             "TD": 0,
             "JDM": 0,
             "abilities": [
-                "Blocage",
-                "Répulsion",
-                "Sans les Mains",
-                "Régénération",
-                "Glissade Contrôlée"
+                "Régénération"
             ]
         }
     ]
