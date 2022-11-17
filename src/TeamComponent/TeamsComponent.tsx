@@ -1,11 +1,5 @@
 import React, { useState } from "react";
 import TeamComponent from "./TeamComponent";
-import halflings from "../Teams/halflings.json"
-import blackOrcs from "../Teams/blackOrks.json"
-import orcs from "../Teams/mama.json"
-import necro from "../Teams/necro.json"
-import dwarfs from "../Teams/dwarfs.json"
-import lizardmen from "../Teams/lizardmen.json"
 import { Team } from "./TeamInterface";
 import TeamNavComponent from "../Navigation/TeamNavComponent";
 import LMS from '../Images/logo-LMS.png'
@@ -16,10 +10,11 @@ import SUP from '../Images/logo-SUP.png'
 import LKM from '../Images/logo-LKM.png'
 import './TeamsComponent.css'
 import { isMobile } from 'react-device-detect';
+import { getTeams } from "../Utils/Utils";
 
 function TeamsComponent() {
     const [actualTeam, setActualTeam] = useState(0)
-    const [teamList] = useState<Team[]>([orcs, blackOrcs, halflings, necro, dwarfs, lizardmen])
+    const [teamList] = useState<Team[]>(getTeams())
     const [teamLogos] = useState<string[]>([MAMA, LBG, LMS, LGA, SUP, LKM])
 
     function changeTeam(team: Team) {

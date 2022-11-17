@@ -13,8 +13,6 @@ function App() {
     setState(state)
   }
 
-  console.log(isMobile)
-
   return (
     <>
       {

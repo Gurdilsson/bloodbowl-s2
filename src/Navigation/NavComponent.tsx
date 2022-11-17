@@ -21,7 +21,7 @@ function NavComponent({ changeState, state }: NavComponentProps) {
                 </div>
                 <div className={"menu-item" + (state === 2 ? " menu-selected" : "")}
                     onClick={() => changeState(2)}>
-                    Classement 🏆
+                    Classements 🏆
                     </div>
                 <div className={"menu-item" + (state === 3 ? " menu-selected" : "")}
                     onClick={() => changeState(3)}>

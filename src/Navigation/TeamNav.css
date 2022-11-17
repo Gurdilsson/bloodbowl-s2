@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     border: solid;
-    display: flex;
     background-color: rgb(250, 234, 215);
     text-align: center;
 }
