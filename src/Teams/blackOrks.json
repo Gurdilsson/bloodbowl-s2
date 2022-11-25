@@ -5,12 +5,12 @@
     "coachName": "Antoine",
     "rerolls": 3,
     "rerollCost": 50000,
-    "fans": 5,
+    "fans": 4,
     "apothecary": false,
     "cheerleaders": 0,
     "assistantCoach": 0,
-    "golds": 70000,
-    "championchipPoints": 3,
+    "golds": 160000,
+    "championchipPoints": 4,
     "players": [
         {
             "num": 1,
@@ -90,7 +90,7 @@
             "role": "Black Orc",
             "cost": 90000,
             "level": 1,
-            "PSP": 0,
+            "PSP": 2,
             "M": 4,
             "F": 4,
             "AG": 4,
@@ -99,7 +99,7 @@
             "RPM": false,
             "BP": 0,
             "REU": 0,
-            "ELI": 0,
+            "ELI": 1,
             "DET": 0,
             "INT": 0,
             "TD": 0,
@@ -208,9 +208,9 @@
             "num": 10,
             "name": "Picoleur-Furieux",
             "role": "Goblin Bruiser",
-            "cost": 45000,
-            "level": 1,
-            "PSP": 0,
+            "cost": 55000,
+            "level": 2,
+            "PSP": 1,
             "M": 6,
             "F": 2,
             "AG": 3,
@@ -222,10 +222,10 @@
             "ELI": 0,
             "DET": 0,
             "INT": 0,
-            "TD": 0,
+            "TD": 1,
             "JDM": 0,
             "abilities": [
-                "Esquive", "Poids Plume", "Minus", "Crâne Epais"
+                "Esquive", "Poids Plume", "Minus", "Crâne Epais", "Equilibre"
             ]
         },
         {
@@ -256,8 +256,8 @@
             "num": 12,
             "name": "Réservoir à Gazpille",
             "role": "Untrained Troll",
-            "cost": 115000,
-            "level": 1,
+            "cost": 135000,
+            "level": 2,
             "PSP": 0,
             "M": 4,
             "F": 5,
@@ -267,11 +267,11 @@
             "RPM": false,
             "BP": 0,
             "REU": 0,
-            "ELI": 0,
+            "ELI": 1,
             "DET": 0,
             "INT": 0,
             "TD": 0,
-            "JDM": 0,
+            "JDM": 1,
             "abilities": [
                 "Toujours Affamé",
                 "Solitaire (3)",
@@ -279,7 +279,8 @@
                 "Châtaigne (1)",
                 "Gros Débile",
                 "Régénération",
-                "Lancer de Coéquipier"
+                "Lancer de Coéquipier",
+                "Projection"
             ]
         }
     ]
