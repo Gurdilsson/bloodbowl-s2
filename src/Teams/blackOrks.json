@@ -9,8 +9,8 @@
     "apothecary": false,
     "cheerleaders": 0,
     "assistantCoach": 0,
-    "golds": 160000,
-    "championchipPoints": 4,
+    "golds": 135000,
+    "championchipPoints": 7,
     "players": [
         {
             "num": 1,
@@ -33,7 +33,8 @@
             "TD": 0,
             "JDM": 0,
             "abilities": [
-                "Bagarreur", "Projection"
+                "Bagarreur",
+                "Projection"
             ]
         },
         {
@@ -57,7 +58,9 @@
             "TD": 0,
             "JDM": 1,
             "abilities": [
-                "Bagarreur", "Projection", "Chataîgne (+1)"
+                "Bagarreur",
+                "Projection",
+                "Chataîgne (+1)"
             ]
         },
         {
@@ -81,16 +84,17 @@
             "TD": 0,
             "JDM": 0,
             "abilities": [
-                "Bagarreur", "Projection"
+                "Bagarreur",
+                "Projection"
             ]
         },
         {
             "num": 4,
             "name": "Boit-Sans-Soif",
             "role": "Black Orc",
-            "cost": 90000,
-            "level": 1,
-            "PSP": 2,
+            "cost": 110000,
+            "level": 2,
+            "PSP": 0,
             "M": 4,
             "F": 4,
             "AG": 4,
@@ -99,13 +103,15 @@
             "RPM": false,
             "BP": 0,
             "REU": 0,
-            "ELI": 1,
+            "ELI": 3,
             "DET": 0,
             "INT": 0,
             "TD": 0,
             "JDM": 0,
             "abilities": [
-                "Bagarreur", "Projection"
+                "Bagarreur",
+                "Projection",
+                "Chataîgne (+1)"
             ]
         },
         {
@@ -129,7 +135,9 @@
             "TD": 0,
             "JDM": 0,
             "abilities": [
-                "Bagarreur", "Projection", "Chataîgne (+1)"
+                "Bagarreur",
+                "Projection",
+                "Chataîgne (+1)"
             ]
         },
         {
@@ -141,10 +149,10 @@
             "PSP": 4,
             "M": 4,
             "F": 4,
-            "AG": 4,
+            "AG": 5,
             "CP": 5,
             "AR": 10,
-            "RPM": false,
+            "RPM": true,
             "BP": 0,
             "REU": 0,
             "ELI": 0,
@@ -153,7 +161,8 @@
             "TD": 0,
             "JDM": 1,
             "abilities": [
-                "Bagarreur", "Projection"
+                "Bagarreur",
+                "Projection"
             ]
         },
         {
@@ -162,7 +171,7 @@
             "role": "Goblin Bruiser",
             "cost": 55000,
             "level": 2,
-            "PSP": 0,
+            "PSP": 2,
             "M": 6,
             "F": 2,
             "AG": 3,
@@ -171,13 +180,17 @@
             "RPM": false,
             "BP": 0,
             "REU": 0,
-            "ELI": 0,
+            "ELI": 1,
             "DET": 0,
             "INT": 0,
             "TD": 1,
             "JDM": 0,
             "abilities": [
-                "Esquive", "Poids Plume", "Minus", "Crâne Epais", "Tacle Plongeant"
+                "Esquive",
+                "Poids Plume",
+                "Minus",
+                "Crâne Epais",
+                "Tacle Plongeant"
             ]
         },
         {
@@ -201,7 +214,10 @@
             "TD": 0,
             "JDM": 0,
             "abilities": [
-                "Esquive", "Poids Plume", "Minus", "Crâne Epais"
+                "Esquive",
+                "Poids Plume",
+                "Minus",
+                "Crâne Epais"
             ]
         },
         {
@@ -225,7 +241,11 @@
             "TD": 1,
             "JDM": 0,
             "abilities": [
-                "Esquive", "Poids Plume", "Minus", "Crâne Epais", "Equilibre"
+                "Esquive",
+                "Poids Plume",
+                "Minus",
+                "Crâne Epais",
+                "Equilibre"
             ]
         },
         {
@@ -234,7 +254,7 @@
             "role": "Goblin Bruiser",
             "cost": 45000,
             "level": 1,
-            "PSP": 0,
+            "PSP": 3,
             "M": 6,
             "F": 2,
             "AG": 3,
@@ -246,10 +266,13 @@
             "ELI": 0,
             "DET": 0,
             "INT": 0,
-            "TD": 0,
+            "TD": 1,
             "JDM": 0,
             "abilities": [
-                "Esquive", "Poids Plume", "Minus", "Crâne Epais"
+                "Esquive",
+                "Poids Plume",
+                "Minus",
+                "Crâne Epais"
             ]
         },
         {
@@ -258,7 +281,7 @@
             "role": "Untrained Troll",
             "cost": 135000,
             "level": 2,
-            "PSP": 0,
+            "PSP": 6,
             "M": 4,
             "F": 5,
             "AG": 5,
@@ -267,11 +290,11 @@
             "RPM": false,
             "BP": 0,
             "REU": 0,
-            "ELI": 1,
+            "ELI": 2,
             "DET": 0,
             "INT": 0,
             "TD": 0,
-            "JDM": 1,
+            "JDM": 2,
             "abilities": [
                 "Toujours Affamé",
                 "Solitaire (3)",
@@ -281,6 +304,35 @@
                 "Régénération",
                 "Lancer de Coéquipier",
                 "Projection"
+            ]
+        },
+        {
+            "num": 13,
+            "name": "Fongus the Loon",
+            "role": "Star Player",
+            "cost": 80000,
+            "level": 2,
+            "PSP": 6,
+            "M": 4,
+            "F": 7,
+            "AG": 3,
+            "CP": 0,
+            "AR": 8,
+            "RPM": false,
+            "BP": 0,
+            "REU": 0,
+            "ELI": 0,
+            "DET": 0,
+            "INT": 0,
+            "TD": 0,
+            "JDM": 0,
+            "abilities": [
+                "Chaîne & Boulet",
+                "Châtaigne (+1)",
+                "Solitaire (4+)",
+                "Sans les Mains",
+                "Arme Secrète",
+                " Minus"
             ]
         }
     ]

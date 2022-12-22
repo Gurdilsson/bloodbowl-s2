@@ -9,7 +9,7 @@
     "apothecary": false,
     "cheerleaders": 0,
     "assistantCoach": 0,
-    "golds": 15000,
+    "golds": 20000,
     "championchipPoints": 3,
     "players": [
         {
@@ -206,7 +206,7 @@
             "AG": 4,
             "CP": 3,
             "AR": 8,
-            "RPM": true,
+            "RPM": false,
             "BP": 0,
             "REU": 0,
             "ELI": 1,
@@ -218,7 +218,8 @@
                 "Esquive",
                 "Poids Plume",
                 "Minus",
-                "Sur la balle"
+                "Sur la balle",
+                "Parade"
             ]
         },
         {
@@ -244,14 +245,15 @@
             "abilities": [
                 "Esquive",
                 "Poids Plume",
-                "Minus"
+                "Minus",
+                "Parade"
             ]
         },
         {
             "num": 12,
             "name": "Pirry",
             "role": "Catchers",
-            "cost": 55000,
+            "cost": 75000,
             "level": 1,
             "PSP": 3,
             "M": 5,
@@ -272,7 +274,8 @@
                 "Esquive",
                 "Poids Plume",
                 "Minus",
-                "Sprint"
+                "Sprint",
+                "Equilibre"
             ]
         },
         {
@@ -350,7 +353,7 @@
             "RPM": false,
             "BP": 0,
             "REU": 0,
-            "ELI": 1,
+            "ELI": 3,
             "DET": 0,
             "INT": 0,
             "TD": 0,
